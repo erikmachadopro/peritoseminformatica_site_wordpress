@@ -20,6 +20,8 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'D:\laragon\www\peritoseminformatica_site_wordpress\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'peritos_site' );
 
 /** Database username */
@@ -48,14 +50,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         's2_$,ueaA1jD%I!U&6#s9$DPlc8g=1;uv=c2=]P4VS[P+~^hgaV U +{k.{2zrA=' );
-define( 'SECURE_AUTH_KEY',  'Bb ,i]fE%/BqDh<vDqXVt1M0w-Jz8[$+anI=.RPo+69bFv yD^|Nk+2~.)dLiM2(' );
-define( 'LOGGED_IN_KEY',    't1,OD0vtv_HHk3]o5(L{BTksZ:DRg-xmf4-oo*wt2$T/0l#lMBh`li62pEd5xR/w' );
-define( 'NONCE_KEY',        ':6AFyE$&F+LNe0]rgK.qFAG_oIn1nAcWTtE`*2B<NPPAYk;jvQGoCO)ojInPg9/6' );
-define( 'AUTH_SALT',        'Y #5)S(,0.:=IMcPKG0!2a!k1m1S^/&]3*gM&a0!U+x7]}Xn^I]k#HEueHb88(pS' );
-define( 'SECURE_AUTH_SALT', ':o8de(tVLxJjLEQ#o A4baXm.AfyGz)VErcYOT, ;)/rf,IM:sfqC7<AgYz{r&qE' );
-define( 'LOGGED_IN_SALT',   'C-Om*Cb ,Hb(^XnPUoVR(=Yf8F=z3O^R;%DT>kWq[6edLyS5c~*/EKZ5~A!ieQ/7' );
-define( 'NONCE_SALT',       '2:PWJ5&!l{Z3r&[hU_DLH4nym=vF0Dt,*^*lVo55h+~UA.<h4tLy=eWU$ZaYW8&~' );
+define( 'AUTH_KEY',         '1AKT/~j0>K(vB~jh`LEwxnY:o:fCm2w$e|~H`@#HIGOVtf5:]DB;Qc6H.]cLrDm`' );
+define( 'SECURE_AUTH_KEY',  'ae(@gOr@Wm{Oq79X/c6 u}%ft#`a`y:~3M]V6GHxglA-tZ?C+fKjBcM/`WXK<J7c' );
+define( 'LOGGED_IN_KEY',    '~ufJx Ky(A7+DW(iM0UfMh+#sb2f_*1ZL+O1:GNR}q Q6l0Qe 5JpQ]EC;y.8NII' );
+define( 'NONCE_KEY',        '+DRTzMi]<hgiNmcQ-c*-qOg=3ik9qp%84Rm^jJv*:=[;HRra(h^ytkV|ZS(-~d/T' );
+define( 'AUTH_SALT',        'd4P!f2EgScsr.bcI1W5q^nlW=^ccXsRf+xKff4xpGAsF R[(E#^Ba(U}=5VCQ-^f' );
+define( 'SECURE_AUTH_SALT', '$2yxuxi,Qg>6QM*1 Ei{uX(J0M18+3HlAomnX5Ut_aW284j%B0<aFdjVovd1WFfw' );
+define( 'LOGGED_IN_SALT',   'vYO0W*bTB?,~5]yUuF#zsQgQq9|X;6!y1`TPE$4f$c[ 7P8Mw3%. {g]#bZnJh70' );
+define( 'NONCE_SALT',       'J=7)HoXV+D~ZPeTk^4|fFK=PshJ@d9%#L-LVV:I*EFpTzzK&2{YeY-uP.~F3bwY}' );
 
 /**#@-*/
 
